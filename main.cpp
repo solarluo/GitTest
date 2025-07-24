@@ -1,6 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
-
+#include <QQmlContext>
+#include "GitTest.h"
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
@@ -12,7 +13,7 @@ int main(int argc, char *argv[])
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.loadFromModule("GitTest", "Main");
+    engine.loadFromModule("duoxianc", "Main");
 
     return app.exec();
 }
