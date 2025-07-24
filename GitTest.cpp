@@ -46,7 +46,7 @@ void Worker::startWork() {
     });
 
     // 启动线程
-    m_currentThread->start();
+    m_currentThread->start();asd
 }
 
 void Worker::stopWork() {
