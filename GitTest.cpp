@@ -1,5 +1,7 @@
 #include "GitTest.h"
-
+asdasddddda
+aaaaa
+    aaa
 // Worker 类实现
 Worker::Worker(QObject* parent) : QObject(parent) {}
 
